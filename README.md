@@ -1,19 +1,19 @@
-# Lots of Sounds JavaScript SDK
+# Sound Effects API JavaScript/TypeScript SDK
 
-Lightweight, zero-runtime-dependency TypeScript client for the [Lots of Sounds sound effects API](https://www.lotsofsounds.com/docs). Use the free sound effects sample API without a key, or search and download the full CC0 catalog with an API key. A typed alternative for developers evaluating the Freesound API, AI agents, and MCP audio tools.
+Lightweight, zero-runtime-dependency JavaScript/TypeScript SDK for the [Lots of Sounds sound effects API](https://www.lotsofsounds.com/docs). Find free sound effects without a key, or search and download the full CC0 catalog with an API key. A typed Freesound alternative for apps, games, AI agents, and MCP audio tools.
 
-> Prepared for npm as `@lotsofsounds/sdk` version `0.1.0`; not published yet.
+> Prepared for npm as `@lotsofsounds/sound-effects-api` version `0.1.0`; not published yet.
 
 ## Install
 
 ```bash
-npm install github:lotsofsounds/js
+npm install github:lotsofsounds/sound-effects-api-js
 ```
 
 ## Free sample API (no key)
 
 ```ts
-import { LotsOfSounds } from "@lotsofsounds/sdk";
+import { LotsOfSounds } from "@lotsofsounds/sound-effects-api";
 
 const sounds = new LotsOfSounds();
 const { data } = await sounds.listSamples({ q: "door knock", limit: 6 });

@@ -1,5 +1,5 @@
 {
-  "name": "@lotsofsounds/sdk",
+  "name": "@lotsofsounds/sound-effects-api",
   "version": "0.1.0",
   "description": "Lightweight TypeScript SDK for the Lots of Sounds sound effects API",
   "type": "module",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lotsofsounds/js.git"
+    "url": "git+https://github.com/lotsofsounds/sound-effects-api-js.git"
   },
   "keywords": [
     "sound-effects",
@@ -38,7 +38,7 @@
   "license": "MIT",
   "homepage": "https://www.lotsofsounds.com/docs",
   "bugs": {
-    "url": "https://github.com/lotsofsounds/js/issues"
+    "url": "https://github.com/lotsofsounds/sound-effects-api-js/issues"
   },
   "engines": {
     "node": ">=18"
