@@ -1,0 +1,53 @@
+{
+  "name": "@lotsofsounds/sdk",
+  "version": "0.1.0",
+  "description": "Lightweight TypeScript SDK for the Lots of Sounds sound effects API",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsc",
+    "test": "npm run build && node --test test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lotsofsounds/js.git"
+  },
+  "keywords": [
+    "sound-effects",
+    "free-sound-effects-api",
+    "freesound-alternative",
+    "audio",
+    "typescript",
+    "mcp",
+    "ai-agents"
+  ],
+  "author": "Lots of Sounds",
+  "license": "MIT",
+  "homepage": "https://www.lotsofsounds.com/docs",
+  "bugs": {
+    "url": "https://github.com/lotsofsounds/js/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
